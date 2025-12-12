@@ -1,0 +1,8 @@
+unstable_features = true
+edition = "2024"
+newline_style = "Unix"
+hard_tabs = true
+group_imports = "StdExternalCrate"
+imports_granularity = "Module"
+wrap_comments = true
+struct_lit_width = 75
