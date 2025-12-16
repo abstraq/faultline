@@ -3,6 +3,7 @@ mod spawn;
 
 use bevy::prelude::*;
 
+/// Marker component for the player in the game.
 #[derive(Component, Debug)]
 pub struct Player;
 
