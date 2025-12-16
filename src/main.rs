@@ -8,6 +8,7 @@ const PACKAGE_VERSION: &str = env!("CARGO_PKG_VERSION");
 
 fn main() {
 	let mut app = App::new();
+
 	app.add_plugins(
 		DefaultPlugins
 			.set(ImagePlugin::default_nearest())
