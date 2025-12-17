@@ -1,4 +1,5 @@
 mod camera;
+mod input;
 mod map;
 mod player;
 
@@ -14,6 +15,7 @@ impl PluginGroup for FaultlinePlugins {
 	fn build(self) -> PluginGroupBuilder {
 		PluginGroupBuilder::start::<Self>()
 			.add(camera::plugin)
+			.add(input::plugin)
 			.add(map::plugin)
 			.add(player::plugin)
 			.build()
