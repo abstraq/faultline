@@ -4,7 +4,7 @@ use leafwing_input_manager::prelude::ActionState;
 use crate::input::InputAction;
 use crate::player::Player;
 
-const DEFAULT_MOVE_SPEED: f32 = 192.0;
+const DEFAULT_MOVE_SPEED: f32 = 128.0;
 
 pub(super) fn handle_movement_input(
 	mut transform: Single<&mut Transform, With<Player>>,
